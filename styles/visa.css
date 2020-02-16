@@ -1,0 +1,60 @@
+.visa-header {
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581612942/juyonna_ui/hotels-header-image---.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 36px 0;
+}
+
+.visa-header h1 {
+    margin: 0 auto ;
+}
+
+.visa-header p {
+    margin: 12px auto 23px auto ;
+    width: 285px;
+    padding: 0 10px;
+}
+
+.visa-header button {
+    margin-bottom: 74px;
+}
+
+.visa-content-header {
+    background: none;
+    padding-bottom: 750px;
+}
+
+.visa-content {
+    background: #ffffff;
+}
+
+.visa-content-header h2{
+    margin:0 auto 12px auto;
+    width: 196px;
+    font-size: 18px;
+}
+
+.visa-content-header p {
+    width: 256px;
+    margin: 0 auto 23px auto;
+    padding: 0 10px 10px;
+}
+
+.visa-form {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 24px #00000029;
+    padding: 44px 30px 130px;
+    margin: -750px auto 0 auto;
+    width: 286px;
+    min-width: 286px;
+  }
+
+.visa-footer {
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581490116/juyonna_ui/testimoial-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

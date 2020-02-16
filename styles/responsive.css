@@ -1,0 +1,655 @@
+@import url(https://weloveiconfonts.com/api/?family=entypo|fontawesome|zocial|typicons);
+
+
+body{
+  margin: 0;
+  color: #FFFFFF;
+}
+
+
+.container {
+  padding: 0;
+}
+
+h2 {
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  font-weight: normal;
+  /* width: 180px; */
+  margin:  0 auto;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+
+p{
+  font-size: 12px;
+}
+
+h3 {
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  font-weight: normal;
+  width: 159px;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+.sub-heading {
+  font-size: 12px;
+  color:#FFFFFF8A ;
+  margin: 0 auto;
+}
+
+/* entypo */
+[class*="fontawesome-"]:before {
+  font-family: 'fontawesome', sans-serif;
+  color: #ffffff;
+  /* border-radius: 100%;
+  background-color: #FFFFFF8A;
+  padding: 5px;
+  font-size: 10px;
+  position: relative;
+  left: 20px; */
+  font-size: 12px;
+}
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+[class*="typicons-"]:before {
+  font-family: 'typicons', sans-serif;
+  color: #707070;
+  font-size: 10px;
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+
+.header-button {
+  background-color:#006CFF ;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  border: none;
+  border-radius: 43px;
+  padding: 11px 35px ;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0B0146;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+    display: block;
+    text-align: center;
+  }
+  
+  /* .navbar-top span {
+    color:#FFFFFF8A !important;
+  } */
+
+  .nav-ul {
+    transition: 0.3s;
+    display: block;
+    text-align: center;
+  }
+
+ul:nth-child(6) {
+  color: #FF90DD;
+}
+
+  .nav li {
+    list-style-type: none;
+    text-align: center;
+    margin-left: -40px;
+    margin-top:22px;
+  }
+  
+  .nav a {
+    font-size: 25px;
+    border-radius: 12px;
+    padding: 12px 45px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+  .nav .active {
+    background-color: yellow;
+    color: #0B0146;
+  }
+
+  .navbar-top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    padding:10px 37px;
+    color: #FFFFFF8A;
+    background: #ffffff;
+  }
+
+  .navbar-top span {
+    cursor:pointer;
+    font-size: 25px;
+    width:24px; 
+    height:24px;
+    color: #707070;
+  }
+
+  .nav-details {
+    margin-bottom: 20px;
+  }
+
+  .nav-details p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 10px;
+    color: #FFFFFF8A;
+    margin: 0;
+  }
+
+  .nav-contact {
+    width: 75%;
+    margin:0 auto 47px auto;
+    border-top: 1px solid;
+  }
+
+  .navbar-contact span {
+    padding-left: 10px;
+  }
+
+.index-header {
+ background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581348352/juyonna_ui/flights-header-image.png');
+ background-position: center;
+ background-size: cover;
+ padding: 28px 0 78px 38px;
+}
+
+.header-menu {
+  padding-bottom: 24px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 28px auto auto 38px;
+}
+
+.nav-list button{
+  background: transparent;
+  border: none;
+  border-bottom: 5px solid #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.nav-list button:first-child{
+  border-bottom: 6px solid #ffffff;
+}
+
+.nav-list button, a {
+  padding-bottom: 10px ;
+}
+
+.navbar-contact {
+  background-color: #0B0146;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 700;
+  overflow: scroll;
+  padding: 10px;
+  width: 100%;
+  white-space:nowrap;
+}
+
+.index-header  h1{
+  margin: 24px auto auto 38px;
+}
+
+/* .nav-border span {
+  display: inline-block;
+  height: 5px;
+  width: 63px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+} */
+
+.header h1 {
+  font-size: 24px;
+  width: 211px;
+  color: #FFFFFF;
+}
+
+.index-header-button {
+  margin: 50px auto auto 38px;
+}
+
+.content {
+    background: #0B0446;
+    transition: margin-left .5s;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .content-header h2 {
+    font-size: 18px;
+    width: 180px; 
+    padding-top: 20px ;
+    word-wrap: break-word;
+    color:#0B0146 !important;
+    }
+
+    .content-header p {
+      font-size: 12px;
+      padding-bottom: 170px;
+      color:#0B0146 !important;
+    }
+
+  .content-header {
+    background: url('https://res.cloudinary.com/kinkidy/image/upload/v1581348224/juyonna_ui/below_header.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .flight-deals {
+    margin-top: -130px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(286px));
+  }
+
+  .flight {
+    border-radius:50px 12px 50px 0 ;
+    background-color: #0B0146;
+    box-shadow:0 3px 20px #FFFFFF29;
+    padding-top: 15px;
+    margin:20px 30px;
+  }
+
+  .flight :first-child {
+    color: #FFFFFF8A;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .flight :nth-child(2) {
+    font-size: 16px;
+    color: #FDFFD6;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .flight :nth-child(3) {
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+  }
+
+  .flight :nth-child(4) {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+
+  }
+
+  .flight :nth-child(5) {
+    font-size: 12px;
+    color: #FFFFFF8A;
+    margin: 22px auto ;
+  }
+
+
+  .flight p {
+    padding:0; 
+    margin: 0;
+  }
+
+  .flights-button {
+    margin-top: 24px;
+  }
+
+  .packages {
+    padding-bottom: 56px;
+  }
+
+  .package-header {
+    margin-bottom: 24px;
+  }
+
+  .package-header h2 {
+    width: 216px;
+    margin-top: 50px;
+  }
+
+  .package-sub-heading {
+    padding:0 60px;
+  }
+
+  .package-destinations {
+    display: grid;
+    margin: 0 auto;
+  }
+
+  .package {
+    padding: 50px 37px;
+    text-align: center;
+  }
+
+  .package h2 {
+    font-size: 24px;
+  }
+
+  .package:first-child{
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581348348/juyonna_ui/Dubai.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .package:nth-child(2) {
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581348454/juyonna_ui/new-york.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .package:nth-child(3) {
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581348290/juyonna_ui/brooklyn.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .package:nth-child(4) {
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581348432/juyonna_ui/mexico.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .package:nth-child(5) {
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581348469/juyonna_ui/Nigeria.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .package:nth-child(6) {
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581348401/juyonna_ui/Kenya.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .package:nth-child(7) {
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581392230/juyonna_ui/Santorini.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .package:nth-child(8) {
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581391938/juyonna_ui/Seychelles.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .testimonial-bg {
+    background: url('https://res.cloudinary.com/kinkidy/image/upload/v1581399511/juyonna_ui/testimoial_bg.svg');
+    padding-bottom: 140px;
+  }
+
+  .services-column {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(286px, 1fr));
+    color: #ffffff ;
+    font-size: 12px;
+  }
+  
+  .visa-service {
+    margin-top: -60px !important;
+  }
+
+  .service-header h3 {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+
+.service-header {
+    margin-top: 54px;
+    margin-bottom: 32px;
+  }
+
+  .service {
+    border-radius: 12px 12px 12px 12px;
+    margin: 0px auto 20px auto ;
+    width: 286px;
+  }
+
+  .service:nth-child(1) {
+    background-color: #007E05;
+  }
+
+  .service:nth-child(2) {
+    background-color: #846C00;
+  }
+
+  .service:nth-child(3) {
+    background-color:#0019AF;
+  }
+
+  .service:nth-child(4) {
+    background-color:#000000;
+    margin-bottom: 39px;
+  }
+
+  .service h3 {
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+
+  .service button {
+    box-shadow: 0 3px 6px #00000029;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    background:transparent;
+    width: 223px;
+    height: 36px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 40px;  
+    margin-bottom: 39px;
+  }
+
+  .service p {
+    margin: 0 31.5px;
+    padding-bottom: 15px;
+  }
+
+  .service ul {
+    list-style-position: outside;
+    padding-left: 0;
+    text-align: left;
+    margin:10px auto auto 32px;
+    
+  }
+
+  .service li {
+    list-style-type: '-'; 
+    padding: 0 0 8px 17px;
+    
+  }
+
+  .testimony-header {
+    margin-bottom: 24px;
+  }
+
+  .testimonies  {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(286px, 1fr));
+      color: #ffffff ;
+      font-size: 12px;
+  }
+
+  .first-testimony {
+    border-bottom: 1px solid #FFFFFF1F;
+  }
+
+  .testimony {
+    margin: 0 auto 10px;
+    width: 286px;
+    text-align: left;
+    padding-bottom: 20px;
+  }
+
+  .testimony-profile {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    margin-top: 37px;
+  }
+
+  .testimony-profile img {
+    border-radius: 50px;
+    margin-right: 16.25px;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #FFFFFF;
+  }
+
+  .testimony-profile-details p{
+    margin: 0 auto;
+  }
+
+  .payment {
+    width: 80%;
+    border-radius: 12px 12px 12px 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 24px #00000029;
+    color: #0B0146 !important;
+    margin: -90px auto 30px auto;
+    /* padding-top: 20px; */
+    padding: 20px 40px 20px 40px;
+
+  }
+
+  .payment h1 {
+    text-decoration: line-through;
+  }
+
+  .payment h3 {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 550;
+    color: #0B0146;
+    line-height: 21px;
+    letter-spacing: 1.8px;
+  }
+
+  .payment p {
+    width: 90%;
+    margin: 20px auto 20px auto;
+    line-height: 14px;
+  }
+
+  .payment button{
+    margin-top: 0;
+  }
+
+  .payment img {
+    margin-bottom: 34px;
+  }
+
+  .payment button {
+    background-color:#006CFF ;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 43px;
+    padding: 11px 35px ;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 223px;
+    height: 36px;
+    font-weight: 500;
+    margin: 0 auto;
+  }
+
+  .social-icons {
+    background-color: #ffffff;
+    border-radius: 12px;
+    width: 286px;
+    margin: auto auto;
+  }
+  
+  .social-icons img{
+    padding:  8px 10px;
+  }
+
+  .footer {
+    padding-top: 24px;
+    /* background: #0B0146; */
+  }
+
+  .footer-copyright {
+    padding: 60px 0 5px 0;
+    text-align: center;
+  }
+
+  .footer-copyright img {
+    margin-right: 8px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .nav {padding-top: 15px;}
+    .nav a {font-size: 18px;}
+  }
+
+  /*
+    FLIGHT CONTENT 
+                  */
+
+
+/*
+  VISA CONTENT
+              */
+
+
+/*
+ HOTEL CONTENT
+              */
+
+
+/*
+  DEALS CONTENT
+              */
+
+
+
+/*
+  PAYMENT CONTENT
+                */
+
+
+
+/*
+  PACKAGE HEADER
+              */
+

@@ -1,0 +1,241 @@
+/* 
+
+.hotels-header {
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581348367/juyonna_ui/hotels-header-image.png');
+  }
+  
+  .hotels-content {
+    background-color: #FFFFFF;
+    color: #0B0146;
+  }
+  
+  .hotels-content h2 {
+    color: #0B0146;
+  }
+  
+  .accommodation-buttom-heading, .hotels-content button {
+    margin: 36px auto;
+  }
+  
+  .accommodation, .deal{
+    width: 286px;
+    border-bottom: 1px solid rgb(95, 95, 95);
+    margin: 0 auto;
+    margin-bottom: 21px;
+  }
+  
+  .hotels-content h2{
+    color: #0B0146;
+  }
+  
+  .hotels-content .sub-heading {
+  color: #0B0146;
+  }
+  
+  .aoccomodation-buttom-heading{
+    margin: 36px auto;
+  }
+  
+  .bottom-note {
+    background: #0B0146;
+    padding: 5px 10px 5px 10px;
+    width: 286px;
+    margin:-120px auto 0 auto;
+    color: #76B0FF;
+  }
+   */
+  
+  /*
+   HOTEL CONTENT
+                */
+  .hotels-header {
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581348367/juyonna_ui/hotels-header-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 36px 0;
+  }
+  
+.hotels-header h1{
+    margin:0 auto 12px auto;
+    width: 285px;
+    font-size: 24px;
+}
+
+.hotels-header button {
+    margin:23px auto 74px;
+}
+
+.hotels-content {
+    background: #ffffff;
+    padding-bottom: 700px;
+}
+
+.hotels-content h2{
+    color: #0B0146;
+}
+
+  .visa-content {
+    background: #ffffff;
+}
+
+.hotels-content-header {
+    background: none;
+}
+
+.hotels-content h2 {
+    margin:0 auto;
+    width: 196px;
+    font-size: 18px;
+}
+
+.hotels-content-header p {
+    padding:5px;
+}
+
+.hotel-header h2{
+    padding: 0 10px 20px 10px;
+    margin:  24px auto;
+    text-align: center;
+    width: auto;  
+}
+
+.search-item{
+    padding: 16px 56px ;
+    font-size: 12px;
+    border-radius: 12px;
+    margin: 21px 37px;
+    width: 286px;
+ }
+
+  .accommodation{
+    width: 286px;
+    border-bottom: 1px solid rgba(95, 95, 95, 0.534);
+    margin:0  auto 21px ;
+  }
+
+.accommodation-details {
+    margin: 12px auto 0;
+    text-align: left;
+    color: #0B0146;
+}
+
+.accommodation-type {
+    font-size: 16px;
+    color: #0B0146;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.accommodation-available {
+    color: #757575;
+    font-weight: 700;
+}
+
+.hotels-footer {
+    background-image:url('https://res.cloudinary.com/kinkidy/image/upload/v1581490116/juyonna_ui/testimoial-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hotels-form {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 24px #00000029;
+    padding: 44px 30px 130px;
+    margin: -700px auto 0 auto;
+    width: 286px;
+    min-width: 286px;
+    color: #0B0146;
+  }
+  
+
+  label {
+    color:#1D1D1D;
+    font-size: 12px;
+    margin: 0;
+  }
+
+form p,h2 { 
+  color: #0B0146;
+}
+
+.hotels-form button {
+    margin: 24px auto 0 auto;
+}
+
+button {
+     background-color:#006CFF ;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 43px;
+    padding: 11px 35px ;
+    margin: 20px 25px 0 25px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+  /* .accommodation-content, .deals-content {
+    background-color: #ffffff;
+    color: #0B0146;
+  }
+  
+  .accommodation-content, .deals-content button {
+    border-radius: 43px;
+  }
+  
+  .accommodation, .deal {
+    text-align: left;
+    margin: 20px auto 0 auto;
+    padding-bottom: 20px;
+  }
+  
+  .accommodations:last-child{
+    margin-bottom: 24px;
+  }
+  
+  .accommodation, .deal p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .accommodation, .deal button {
+    background-color: #009A18;
+    border-radius: 8px;
+    padding: 11px 22px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+  }
+  
+  .accomodation-details, .deal-details{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  
+  .accommodations, .deals {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(286px, 1fr));
+    color: #0B0146 ;
+    font-size: 12px;
+  }
+  
+  .accommodations, .deals button {
+    width: 212px;
+    font-size: 12px;
+    margin: 20px auto 0 auto;
+  }
+  
+  .book-accommodation {
+    width: 73px;
+  }
+   */
