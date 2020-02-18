@@ -53,10 +53,11 @@
             <!-- Header -->
             <header class="header flight-header">  
                 <!-- <img class="header-image" src="./images/flights-header-image/drawable-xxxhdpi/flights-header-image.png" alt="airplane" width="100%" height="700"> -->
-                
-                <h1>Enjoy the best flight rates worldwide</h1>
-                <p>Juyonna flight team is made up of seasoned specialized, and experienced experts in flight management<br></p>
-                <button class="header-button">Find My Perfect Flight <span class="fontawesome-chevron-right "></span></button>
+                <div class="flight-header-bg">
+                    <h1>Enjoy the best flight rates worldwide</h1>
+                    <p>Juyonna flight team is made up of seasoned specialized, and experienced experts in flight management<br></p>
+                    <button class="header-button">Find My Perfect Flight <span class="fontawesome-chevron-right "></span></button>    
+                </div>
             </header>
 
             <!-- Page content -->
@@ -125,7 +126,7 @@
                         <p class="date">19 Nov. '19 - 29 Nov. '19</p>
                     </div>   
 
-                    <button class="header-button">Load More Flights <span class="fontawesome-chevron-right "></span></button>
+                    <button class="header-button load-more-button">Load More Flights <span class="fontawesome-chevron-right "></span></button>
 
                     <div class="flight-bottom-heading">
                         <h2>Couldn't find the right flight deal?</h2>
@@ -140,77 +141,84 @@
                 <!--footer-->
             <footer class="footer flight-footer">           
                 <form class="flight-form">
-                    <h2>Lets Know You</h2>
-                    <div class="row">
-                      <div class="col">
-                          <label for="inputName">First name</label>
-                        <input type="text" 
-                       id="inputName" class="form-control">
-                      </div>
-                      <div class="col">
-                        <label>Last name</label>
-                        <input type="text" class="form-control">
-                      </div>
-                    </div>
-
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                          <label for="inputPhoneNumber">Phone Number</label>
-                          <input type="text" class="form-control" id="inputPhoneNumber" >
-                        </div>
-                        <div class="form-group col-md-6">
-                          <label for="inputEmail4">Email Address</label>
-                          <input type="email" class="form-control" id="inputEmail4">
-                        </div> 
-                    </div>
-
-                    <h2>Get your perfect flight</h2>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                          <label for="inputFlyingFrom">Flying From</label>
-                          <input type="text" class="form-control" id="inputFlyingFrom" >
-                        </div>
-                        <div class="form-group col-md-6">
-                          <label for="inputFlyingTo">Flying To</label>
-                          <input type="text" class="form-control" id="inputFlyingTo" >
-                        </div> 
+                    <div class="form-content">
+                        <h2>Lets Know You</h2>
                         <div class="row">
-                            <div class="col">
-                                <label>No. of passengers</label>
-                              <input type="text" class="form-control">
+                          <div class="col">
+                              <label for="inputName">First name</label>
+                            <input type="text" 
+                           id="inputName" class="form-control">
+                          </div>
+                          <div class="col">
+                            <label>Last name</label>
+                            <input type="text" class="form-control">
+                          </div>
+                        </div>
+    
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputPhoneNumber">Phone Number</label>
+                              <input type="text" class="form-control" id="inputPhoneNumber" >
                             </div>
-                            <div class="col">
-                                <label for="Select">Seat Class</label>
-                                <select id="Select" class="form-control">
-                                  <option></option>
-                                </select>
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4">Email Address</label>
+                              <input type="email" class="form-control" id="inputEmail4">
+                            </div> 
+                        </div>
+    
+                        <h2>Get your perfect flight</h2>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputFlyingFrom">Flying From</label>
+                              <input type="text" class="form-control" id="inputFlyingFrom" >
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputFlyingTo">Flying To</label>
+                              <input type="text" class="form-control" id="inputFlyingTo" >
+                            </div> 
+                            <div class="row">
+                                <div class="col">
+                                    <label>No. of passengers</label>
+                                  <input type="text" class="form-control">
+                                </div>
+                                <div class="col">
+                                    <label for="Select">Seat Class</label>
+                                    <select id="Select" class="form-control">
+                                      <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email Address</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div> 
+                            <div class="row">
+                                <div class="col">
+                                    <label>Departure Date</label>
+                                  <input type="text" class="form-control">
+                                </div>
+                                <div class="col">
+                                    <label for="Select">Seat Class</label>
+                                    <select id="Select" class="form-control">
+                                      <option></option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Email Address</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                        </div> 
-                        <div class="row">
-                            <div class="col">
-                                <label>Departure Date</label>
-                              <input type="text" class="form-control">
-                            </div>
-                            <div class="col">
-                                <label for="Select">Seat Class</label>
-                                <select id="Select" class="form-control">
-                                  <option></option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <!--
+                        <!--
+                                
+                                recapture goes here
                             
-                            recapture goes here
-                        
-                        -->
-                    <button type="submit" >Submit Flight Request</button>
-                    <!-- <p class="bottom-note">Once we get the best possible results, we would contact you via email</p> -->
-
+                            -->
+                            <div class="submit-button">
+                                <button  type="submit" >Submit Flight Request</button>    
+        
+                            </div>                        <!-- <p class="bottom-note">Once we get the best possible results, we would contact you via email</p> -->
+    
+                    </div>
+                    <div class="form-note">
+                        <p>Once we get the best possible results, we would contact you via email</p>
+                    </div>
                 </form>
 
                     <div class="footer-copyright flight-copyright">

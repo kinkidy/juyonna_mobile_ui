@@ -1,16 +1,18 @@
 .payment-header {
-    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581612942/juyonna_ui/hotels-header-image---.png');
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581929006/juyonna_ui/payments-header-image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 36px 0;
+    padding: 36px 0 73px;
 }
 
 .payment-header h1{
     margin:0 auto 12px auto;
-    width: 285px;
+    width: 80%;
     font-size: 24px;
+    letter-spacing: 0;
+    line-height: 20px;
 }
 
 .payment-header p {
@@ -21,13 +23,13 @@
 }
 
 .payment-header button {
-    margin-bottom: 74px;
+    text-align: left;
 }
 
 .payment-content-header {
     background: #FDFFD6;
     color: #0B0146;
-    
+    padding: 20px 0;
 }
 
 .payment-content-header p {
@@ -35,9 +37,10 @@
     font-size: 12px;
     font-weight: 500;
     line-height: 20px;
-    padding: 20px 39px;
     width: 80%;
     margin: 0 auto;
+    letter-spacing: 0.3px;
+    line-height: 20px;
 }
 
 .payment-content {
@@ -49,29 +52,6 @@
     margin-top: -500px;
 }
 
-/* .payment-content {
-    background: #ffffff;
-  }
-  
-  .payment-content button {
-   margin: 36px auto;
-  }
-  
-  .payment-content h2{
-    color: #0B0146;
-  }
-  
-  .payment-content .sub-heading {
-  color: #0B0146;
-  }
-  
-  .payment-content .content-header {
-    background-color: #FBFFA2;
-    background-image: none;
-  }
-  
-  .payment-header p {
-    padding: 20px 39px;
-    margin-bottom: 24px;
-  }
-   */
+.payment-form .form-note {
+    background-color: #0B0146;
+}

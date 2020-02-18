@@ -64,14 +64,14 @@
             <div class="content hotels-content">
                 <div class="content-header hotels-content-header">
                     <h2>We partner with the best</h2>
-                    <p>Save big money for our flight deals for everyone</p>
+                    <p>We provide the best prices on hotels worldwide</p>
                 </div>
 
                 <!--Accomodation-->
 
                 <div class="accommodations">
                     <div class="accommodation">
-                        <img src="https://res.cloudinary.com/kinkidy/image/upload/v1581348507/juyonna_ui/Rectangle_4.png">
+                        <a href="./HotelOpened.html"><img src="https://res.cloudinary.com/kinkidy/image/upload/v1581348507/juyonna_ui/Rectangle_4.png"></a>
                         
                         <div class="accommodation-details">
                             <p class="accommodation-type">Apartments</p>
@@ -194,76 +194,80 @@
             </div>
             <footer class="footer hotels-footer container">
                 <form class="hotels-form">
-                    <h2>Let's Know You</h2>
-                    <div class="row">
-                      <div class="col">
-                          <label>First name</label>
-                        <input type="text" class="form-control">
-                      </div>
-                      <div class="col">
-                        <label>Last name</label>
-                        <input type="text" class="form-control">
-                      </div>
-                    </div>
-
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                          <label for="inputPhoneNumber">Phone Number</label>
-                          <input type="text" class="form-control" id="inputPhoneNumber" >
-                        </div>
-                        <div class="form-group col-md-6">
-                          <label for="inputEmail4">Email Address</label>
-                          <input type="email" class="form-control" id="inputEmail4" >
-                        </div> 
-                    </div>
-
-                    <h2>Get your perfect Hotel</h2>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                          <label for="inputFlyingFrom">Flying From</label>
-                            <select id="Select" class="form-control">
-                                <option></option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-6">
-                          <label for="inputCity">City</label>
-                          <input type="text" class="form-control" id="inputCity" >
-                        </div> 
+                    <div class="form-content">
+                        <h2>Let's Know You</h2>
                         <div class="row">
-                            <div class="col">
-                                <label>No. of Persons</label>
-                              <input type="text" class="form-control">
+                          <div class="col">
+                              <label>First name</label>
+                            <input type="text" class="form-control">
+                          </div>
+                          <div class="col">
+                            <label>Last name</label>
+                            <input type="text" class="form-control">
+                          </div>
+                        </div>
+    
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputPhoneNumber">Phone Number</label>
+                              <input type="text" class="form-control" id="inputPhoneNumber" >
                             </div>
-                            <div class="col">
-                                <label for="Select">Room Type</label>
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4">Email Address</label>
+                              <input type="email" class="form-control" id="inputEmail4" >
+                            </div> 
+                        </div>
+    
+                        <h2>Get your perfect Hotel</h2>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputFlyingFrom">Flying From</label>
                                 <select id="Select" class="form-control">
-                                  <option></option>
+                                    <option></option>
                                 </select>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <label for="date">Check In Date</label>
-                                <input type="date" class="form-control">
+                            <div class="form-group col-md-6">
+                              <label for="inputCity">City</label>
+                              <input type="text" class="form-control" id="inputCity" >
+                            </div> 
+                            <div class="row">
+                                <div class="col">
+                                    <label>No. of Persons</label>
+                                  <input type="text" class="form-control">
+                                </div>
+                                <div class="col">
+                                    <label for="Select">Room Type</label>
+                                    <select id="Select" class="form-control">
+                                      <option></option>
+                                    </select>
+                                </div>
                             </div>
-                            <div class="col">
-                                <label for="date">Check Out Date</label>
-                                <input type="date" class="form-control">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="date">Check In Date</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="col">
+                                    <label for="date">Check Out Date</label>
+                                    <input type="date" class="form-control">
+                                </div>
                             </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Additional Message (Optional)</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
                         </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Additional Message (Optional)</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                          </div>
-                    </div>
-                    <!--
+                        <!--
+                                
+                                recapture goes here
                             
-                            recapture goes here
-                        
-                        -->
-                    <button type="submit" >Submit Hotel Request</button>
-                
-                    <!-- <p class="below-p">Once we get the best possible results, we would contact you via email</p> -->
+                            -->
+                        <button type="submit"class="form-submit-button"  >Submit Hotel Request</button>    
+                    </div>
+                    <div class="form-note">
+                    <p class="below-p">Once we get the best possible results, we would contact you via email</p>
+
+                    </div>            
                 </form>
                 <div>
                     <div class="footer-copyright hotels-copyright">

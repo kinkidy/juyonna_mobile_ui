@@ -5,16 +5,28 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom:31px;
+  /* position: relative; */
+}
+
+.hotel-header-bg {
+  background-color: rgba(0, 0, 0, 0.54);
+  width: 100%;
+  height: 100%;
+  padding: 24px 0 31px 0;
 }
 
 .return-button {
-  padding: 10px;
-  color: #707070;
+  padding: 9px 12px 9px 12px;
+  background-color: rgba(235, 235, 235, 1);
+  color: rgba(112, 112, 112, 1);
   font-size: 12px;
+  letter-spacing: 0;
+  line-height: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 550;
   border: none;
   border-radius: 4px;
-  margin: 24px auto 0 37px;
+  margin: 0 auto 0 37px;
 }
 
 
@@ -70,11 +82,21 @@
   /* color: #0B0146; */
 }
 
+.accommodations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80%, 1fr));
+  color: #0B0146 ;
+  background-color: #ffffff;
+  font-size: 12px;
+  padding-bottom: 180px;
+}
+
 .accommodation {
   text-align: left;
+  width: 80%;
   margin: 20px auto 0 auto;
   padding-bottom: 20px;
-  border-bottom: 1px solid rgba(121, 121, 121, 0.473);
+  border-bottom: 0.7px solid rgba(168, 167, 167, 0.473);
   color: #0B0146;
   line-height: 21px;
 }
@@ -90,12 +112,16 @@
 }
 
 .book-accommodation {
-  width: 73px;
+  width: 25%;
+  height: 36px;
   font-size: 12px;
   background-color: #009A18;
   color: #ffffff;
   border-radius: 8px;
+  margin-top: 5px;
   border: none;
+  padding: 0;
+  margin:  5px 0 0 0;
 }
 
 .accommodation p {
@@ -113,15 +139,6 @@
 }
 
 .load-button {
-  width: 50%;
   margin: 24px auto 0 auto;
 }
 
-.accommodations {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(286px, 1fr));
-  color: #0B0146 ;
-  background-color: #ffffff;
-  font-size: 12px;
-  padding-bottom: 180px;
-}

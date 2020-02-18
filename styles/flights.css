@@ -1,11 +1,18 @@
 
 .flight-header {
-    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581612942/juyonna_ui/hotels-header-image---.png');
+    background-image: url('https://res.cloudinary.com/kinkidy/image/upload/v1581888784/juyonna_ui/fff.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 36px 0;
+    position: relative;
+}
+
+.flight-header-bg {
+  background-color: rgba(11, 1, 70, 0.71);
+  width: 100%;
+  height: 100%;
+  padding-top: 36px;
 }
 
 .flight-header h1{
@@ -29,16 +36,13 @@
     background: #ffffff;
   }
 
-  .flight-content button {
-   margin: 36px auto;
-  }
-
   .flight-content h2{
     color: #0B0146;
+    width: 60%;
   }
 
 .flight-content .flight-deals {
-    padding-bottom: 450px;
+    padding-bottom: 420px;
 }
 
 .flight-content .sub-heading {
@@ -48,6 +52,22 @@
   .flight-bottom-heading{
     margin: 36px auto;
   }
+
+.load-more-button {
+  background-color:
+#006CFF;
+color:
+#FFFFFF;
+font-size: 12px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 600;
+border: none;
+border-radius: 43px;
+padding: 11px 40px 11px 30px;
+margin: 20px auto 0 auto;
+letter-spacing: 1px;
+width: 60%;
+}
 
   .flight-footer {
     background-image:url('https://res.cloudinary.com/kinkidy/image/upload/v1581490116/juyonna_ui/testimoial-bg.svg');
@@ -59,13 +79,15 @@
   .flight-form {
     background-color: #FFFFFF;
     border-radius: 15px;
-    box-shadow: 0px 0px 24px #00000029;
-    padding: 44px 30px 130px;
+    box-shadow: 0px 0px 24px #00000029; 
     margin: -400px auto 0 auto;
-    width: 286px;
-    min-width: 286px;
+    width: 80%;
+    padding-bottom: 60px;
   }
   
+  .form-content   {
+      padding: 44px 30px 0;
+   }
 
   label {
     color:#1D1D1D;
@@ -75,10 +97,6 @@
 
 form p { 
   color: #0B0146;
-}
-
-.flight-form button {
-    margin: 24px auto 0 auto;
 }
 
 .reservation-form p{
@@ -100,20 +118,51 @@ form h2 {
   padding: 0 !important;
 }
 
-button {
+.form-note {
+  background-color: #0B0146;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.form-note p {
+  padding: 11.5px 30px;
+  color: #76B0FF;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.form-submit-button {
   background-color:#006CFF ;
   color: #FFFFFF;
   font-size: 12px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   border: none;
-  border-radius: 43px;
-  padding: 11px 35px ;
-  margin: 20px auto 0 auto;
+  border-radius: 12px;
+  padding: 11px 50px;
+  letter-spacing: 0;
+  line-height: 14px;
   text-align: center;
-  letter-spacing: 1px;
+  margin: 20px 0;
 }
 
-/* .flight-copyright {
-  text-align: center;
-} */
+.submit-button { 
+  /* background-color: #FBFFA2; */
+  color: #0B0146;
+  font-size: 10px;
+
+}
+
+.submit-button button {
+  background-color:#006CFF ;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    padding: 11px 50px;
+    letter-spacing: 0;
+    line-height: 14px;
+    text-align: center;
+  }
